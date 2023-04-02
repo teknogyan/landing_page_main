@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="./main.css" />
     <title>TeknoGyan</title>
   </head>
-  <body class="bg-gray-300">
+  <body class="bg-gray-100">
     <nav
-      class="container flex px-2 py-2  mx-auto justify-center md:justify-between items-center"
+      class="relative container flex px-2 py-2 mx-auto justify-center md:justify-between items-center"
     >
       <div class="w-16 pl-4 py-2">
         <img src="./img/logo-no-background.png" alt="" class="" />
@@ -36,6 +36,9 @@
           >Contact</a
         >
       </div>
+      <div class="absolute top-6 right-2 text-2xl md:hidden">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </div>
     </nav>
 
     <section
@@ -44,24 +47,24 @@
       <div
         class="flex-col mx-4 space-y-5 items-center text-center justify-center md:w-1/2"
       >
-        <h2 class="font-bold">Welcome To TeknoGyan.</h2>
+        <h2 class="font-bold">Welcome To <span class="text-red-300 font-bold text-xl">TeknoGyan</span>.</h2>
         <p>
-          TeknoGyan is your one stop solution for all your digital needs. We
-          develop web pages and web apps. Lorem ipsum dolor sit amet
-          consectetur, adipisicing elit. Obcaecati facere, vel a ex quidem modi
-          itaque nemo enim aut porro!
+          <span class="text-red-300 font-bold text-xl">TeknoGyan</span> is your one stop solution for all your digital needs. We
+          develop websites and web apps. Our products come with SEO
+          optimizations and free technial support for a month.
         </p>
         <a
-          class="bg-red-400 px-2 py-1 inline-block mt-2 text-white rounded-lg hover:bg-orange-300"
-          >About</a
+          class="bg-red-400 px-2 py-1 inline-block mt-2 text-white rounded-lg hover:bg-red-300"
+          >Know More</a
         >
       </div>
       <div class="md:w-1/2 px-8 my-4">
-        <img src="./img/logo-no-background.png" alt="" class="" />
+        <img src="./img/undraw_web_devices_re_m8sc.svg" alt="" class="" />
       </div>
     </section>
 
-    <section id="projects"
+    <section
+      id="projects"
       class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto items-center text-center m-12"
     >
       <div
@@ -125,7 +128,7 @@
     </section>
 
     <footer id="contact" class="mx-auto container bg-red-300 text-center py-4">
-      <p>Copyright &copy TeknoGyan.in</p>
+      <p>Copyright &copy; 2023, TeknoGyan</p>
     </footer>
 
     <script
